@@ -1,0 +1,8 @@
+{
+  "name": "mcp-python",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "pip install --upgrade pip && pip install \"mcp[cli]\"",
+  "customizations": {
+    "vscode": { "extensions": ["ms-python.python"] }
+  }
+}
